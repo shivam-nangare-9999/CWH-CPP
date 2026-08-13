@@ -13,5 +13,10 @@ int main() {
     //*--> Dereference (value) of operator
     cout<<"Value At Address B is:"<<*b<<endl;
 
+    //pointer to pointer
+    int** c=&b;
+    cout<<"Address Of b is:"<<&c<<endl;
+    cout<<"Value At Address C is:"<<c<<endl;
+
     return 0;
 }
